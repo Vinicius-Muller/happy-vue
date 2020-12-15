@@ -1,6 +1,7 @@
 import Vue from 'vue'
 import VueRouter from 'vue-router'
 import Home from '../views/Home.vue'
+import Orphanages from '@/views/Orphanages'
 
 Vue.use(VueRouter)
 
@@ -10,6 +11,11 @@ const routes = [
     name: 'Home',
     component: Home
   },
+  {
+    path:'/orphanages',
+    name:'Orphanages',
+    component: Orphanages
+  }
 ]
 
 const router = new VueRouter({

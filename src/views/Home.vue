@@ -5,6 +5,7 @@
     <h1>Leve a felicidade para o mundo</h1>
     </div>
     <img class="landing" src="@/assets/landing.svg" alt="Leve a felicidade para o mundo">
+    <router-link to="/Orphanages"><img src="@/assets/arrow.svg" alt="Veja os orfanatos mais proximos"></router-link>
   </div>
 </template>
 
@@ -54,5 +55,27 @@ export default {
   width: 40%;
   height: 80vh;
 }
+
+.home a {
+  width:50px;
+  height:50px;
+  background-color:yellow;
+  border-radius: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position:absolute;
+  bottom: 5%;
+  right: 5%;
+  }
+
+  .home a:hover {
+    background-color: rgb(235, 235, 19);
+  }
+
+  .home a img {
+    width:30px;
+    height:30px;
+  }
 
 </style>
