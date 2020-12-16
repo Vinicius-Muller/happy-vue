@@ -50,4 +50,20 @@ export default {
   height: 100vh;
 }
 
+@media screen and (max-width:800px) {
+  .wrapper {
+    flex-direction: column;
+  }
+
+  .wrapper .side-bar {
+    width:100vw;
+    height: 30vh;
+  }
+
+  .wrapper .map {
+    width: 100vw;
+    height: 70vh;
+  }
+}
+
 </style>

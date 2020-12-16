@@ -78,4 +78,26 @@ export default {
     height:30px;
   }
 
+  @media screen and (max-width:600px) {
+
+    .home {
+      flex-direction: column;
+      align-items: center;
+    }
+
+    .home .title-box {
+      width: 90%;
+      height: 100px;
+      align-items: center;
+    }
+
+    .title-box h1 {
+      display: none;
+    }
+
+    .home .landing {
+      width: 90%;
+    }
+  }
+
 </style>
